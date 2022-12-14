@@ -3,7 +3,7 @@ import { fade_out } from '../utils/variants';
 //
 export default function Introduction() {
     return (
-        <section id="intro"
+        <section aria-label='introduction' id="intro"
             className="flex items-center flex-col flex-wrap gap-8 justify-center max-w-5xl mx-auto min-h-[calc(100vh-80px)] mt-20">
             <h1 className="text-3xl text-primary font-extrabold underline">About Me</h1>
             <div className="grid lg:grid-cols-1 p-2 lg:gap-0 items-center">

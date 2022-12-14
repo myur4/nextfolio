@@ -14,7 +14,7 @@ const socials = [
 
 export default function Banner() {
     return (
-        <section id='home'>
+        <section id='home' aria-label='introduction banner with socials'>
             <div className="min-h-screen flex flex-col md:flex-row p-8 items-center justify-center gap-6 relative">
 
                 <div className='flex flex-col justify-center items-center'>
