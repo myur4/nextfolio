@@ -12,9 +12,9 @@ export default function Skills() {
 
             <h1 className="text-3xl lg:text-5xl text-primary font-extrabold underline">Skills</h1>
             <div className='flex gap-2'>
-            <span className='badge-secondary badge-lg rounded-full'>Fast Learner</span>
-            <span className='badge-secondary badge-lg rounded-full'>Good Companion</span>
-            <span className='badge-secondary badge-lg rounded-full'>Problem Solver</span>
+            <span className='badge-secondary badge-md lg:badge-lg rounded-full'>Fast Learner</span>
+            <span className='badge-secondary badge-md lg:badge-lg rounded-full'>Good Companion</span>
+            <span className='badge-secondary badge-md lg:badge-lg rounded-full'>Problem Solver</span>
             </div>
 
             <div className='flex flex-col gap-4 flex-wrap'>
@@ -54,3 +54,4 @@ export default function Skills() {
             </div>
         </section>)
 }
+''
