@@ -44,9 +44,9 @@ export default function Banner() {
                 >
 
                     {
-                        socials.map(index => (
-                            <motion.li variants={fade_out} >
-                                <a href={index.url}>{index.component}</a>
+                        socials.map((value, key) => (
+                            <motion.li key={key} variants={fade_out} >
+                                <a href={value.url}>{value.component}</a>
                             </motion.li>
                         ))
                     }
