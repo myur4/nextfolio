@@ -6,8 +6,7 @@ export default function BaseNav() {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav className="fixed py-2 px-5 z-50 w-4/5 mx-auto bg-slate-800 top-2 left-0 right-0 text-center rounded-full">
-
+        <nav className="fixed py-2 px-5 z-10 w-4/5 mx-auto bg-slate-800 top-2 left-0 right-0 text-center rounded-full">
             <div className="flex justify-between items-center">
                 <a href="#home" className="text-2xl md:text-3xl font-extrabold text-primary hover:underline hover:text-accent cursor-pointer">George Santos</a>
                 <div className="flex gap-2 items-center">

@@ -19,7 +19,7 @@ export default function Skills() {
 
             <div className='flex flex-col gap-4 flex-wrap'>
                 <h1 className='text-2xl lg:text-3xl text-center text-secondary font-extrabold'>Programming Languages</h1>
-                <div className='flex gap-4 flex-wrap justify-center'>
+                <div className='flex gap-4 flex-wrap justify-center items-center'>
                     <div className='flex flex-col gap-2 items-center'>
                         <SiCsharp className='w-auto h-16 lg:h-36 border-2 rounded-full p-4 fill-purple-300' />
                         <h1 className='text-xl font-bold'>C#</h1>
@@ -30,7 +30,7 @@ export default function Skills() {
                     </div>
                     <div className='flex flex-col gap-2 items-center'>
                         <SiTypescript className='w-auto h-16 lg:h-36 border-2 rounded-full p-4 fill-blue-400' />
-                        <h1 className='text-xl font-bold'>TypeScript</h1>
+                        <h1 className='text-xl font-bold'>TS</h1>
                     </div>
                 </div>
 
