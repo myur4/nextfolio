@@ -7,7 +7,7 @@ import Image from 'next/image';
 export default function About() {
     return (
         <section id="about"
-            className="flex items-center flex-col flex-wrap justify-center max-w-5xl mx-auto min-h-[calc(100vh-80px)] mt-20">
+            className="flex items-center flex-col flex-wrap justify-center max-w-5xl m-auto min-h-screen">
             <motion.div
                 initial="hidden"
                 whileInView={"visible"}
