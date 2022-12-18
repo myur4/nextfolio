@@ -15,8 +15,7 @@ const socials = [
 export default function Banner() {
     return (
         <section id="home" aria-label="introduction banner with socials">
-            <div className="min-h-screen m-auto flex flex-col md:flex-row items-center justify-center gap-6 relative">
-
+            <div className="min-h-[calc(100vh-60px)] lg:p-[60px] max-w-fit m-auto flex flex-col md:flex-row items-center justify-center gap-6">
                 <div className="flex flex-col justify-center items-center">
                     <span className="text-6xl font-extrabold text-primary">
                         <Typewriter
@@ -31,7 +30,7 @@ export default function Banner() {
                         initial={{ opacity: 0, scale: 0.5 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.75 }}>
-                        <Image src={myPic} alt="cute illustration" />
+                        <Image src={myPic} alt="cute illustration"/>
                     </motion.div>
                     <h1 className="text-6xl md:text-7xl text-primary font-extrabold">Developer.</h1>
                 </div>
