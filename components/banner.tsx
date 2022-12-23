@@ -6,10 +6,10 @@ import { Typewriter } from 'react-simple-typewriter';
 import { fade_out, zoom_in } from '../utils/variants';
 
 const socials = [
-    { name: "Github", component: <GithubIcon className="w-16 fill-white hover:fill-secondary cursor-pointer" />, url: "https://github.com/myur4" },
-    { name: "Discord", component: <DiscordIcon className="w-16 fill-blue-500 hover:fill-secondary cursor-pointer" />, url: "" },
-    { name: "SoundCloud", component: <SoundcloudIcon className="w-14 fill-red-400 hover:fill-secondary hover:border-secondary cursor-pointer border-2 border-red-400 rounded-full" />, url: "https://soundcloud.com/von-zodd" },
-    { name: "Spotify", component: <SpotifyIcon className="w-16 fill-green-400 hover:fill-secondary cursor-pointer" />, url: "" },
+    { name: "Github", component: <GithubIcon className="w-12 lg:w-14 fill-white hover:fill-secondary cursor-pointer" />, url: "https://github.com/myur4" },
+    { name: "Discord", component: <DiscordIcon className="w-12 lg:w-14 fill-blue-500 hover:fill-secondary cursor-pointer" />, url: "" },
+    { name: "SoundCloud", component: <SoundcloudIcon className="w-12 lg:w-14 fill-red-400 hover:fill-secondary hover:border-secondary cursor-pointer border-2 border-red-400 rounded-full" />, url: "https://soundcloud.com/von-zodd" },
+    { name: "Spotify", component: <SpotifyIcon className="w-12 lg:w-14 fill-green-400 hover:fill-secondary cursor-pointer" />, url: "" },
 ]
 
 export default function Banner() {
@@ -36,7 +36,7 @@ export default function Banner() {
                 </div>
 
                 <motion.ul
-                    className="flex md:flex-col gap-4 items-center"
+                    className="flex md:flex-col gap-4 items-center p-0 m-0"
                     variants={zoom_in}
                     initial="hidden"
                     animate="visible"
